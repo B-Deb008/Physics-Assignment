@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+   double theta,ratio, Pi = 3.1416;
+   int m = 1;
+   theta = 45*Pi/180;
+   ratio = m/sin(theta);
+   printf("The ratio is: %.2lf\n",ratio);
+   return 0;
+}
